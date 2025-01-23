@@ -1,12 +1,9 @@
 import requests
 import json
 
-# client id 5bc036ee811d43058923b0b0a74a7af2
-# client secret 4e4065913b8e4e48a3b4d27573820f96
-
 def get_token():
-    client = '5bc036ee811d43058923b0b0a74a7af2'
-    secret = '4e4065913b8e4e48a3b4d27573820f96'
+    client = ''
+    secret = ''
 
     url = 'https://accounts.spotify.com/api/token'
     headers = {
